@@ -1,56 +1,90 @@
-# ☕ Ciao! I'm Trần Bảo Cường (a.k.a Cường Trần Bảo) 👋
+# ⚡ Xin chào! Mình là Trần Bảo Cường 👋
 
-> **Crafting robust code, extracting the perfect espresso, and building offline-first ecosystems.** 
+> *"Viết code như pha một shot Espresso: Cần tỷ lệ chuẩn xác, áp suất vừa đủ, và không thể thiếu một chút nghệ thuật."* ☕
 
-Chào mừng bạn đến với góc nhỏ của mình trên GitHub! Mình là một Full-stack Developer kiêm F&B Entrepreneur hiện đang sinh sống và làm việc tại TP. Hồ Chí Minh. Mình có niềm đam mê mãnh liệt với việc giải quyết các bài toán vận hành thực tế bằng công nghệ, tối ưu hóa bộ nhớ, và thỉnh thoảng... làm vài bài thơ Đường luật hay gảy vài phím đàn tranh cho đời thêm lãng mạn.
-
-Mục tiêu của mình là xây dựng những ứng dụng không chỉ chạy mượt mà trên môi trường Edge (Cloudflare) mà còn phải hoạt động hoàn hảo ngay cả khi... rớt mạng (Offline-first architecture).
+Mình là một Developer đa nhiệm và là người đam mê vận hành F&B tại TP.HCM. Sáng mình đứng quầy canh chỉnh lượng cà phê, tối về mình mở laptop tối ưu hóa bộ nhớ trình duyệt và thiết kế hệ thống phần mềm. Từ việc build game offline, phát triển mini-app, cho đến việc làm thơ Đường luật hay gảy đàn tranh — mình thích khám phá giới hạn của bản thân ở mọi lĩnh vực.
 
 ---
 
-## 🛠️ Tech Stack & Khí Tài Công Nghệ
-- **Core:** TypeScript, JavaScript, Rust 🦀, HTML/CSS.
-- **Frameworks & Libs:** ReactJS, Next.js, Tauri v2 (Desktop & Mobile app 🚀).
-- **Infrastructure & Cloud:** Hệ sinh thái Cloudflare (Workers, D1, R2) cho serverless siêu tốc.
-- **Architecture Philosophy:** Offline-first, OTA (Over-The-Air) updates, PWA, Edge Computing.
+## 🛠️ Kho Khí Tài & Hệ Sinh Thái Công Nghệ
+
+Dưới đây là những "vũ khí" mình thường mang theo khi ra chiến trường gõ phím:
+
+| Phân lớp (Layer) | Vũ khí sử dụng (Tech Stack) | Triết lý & Mục tiêu |
+| :--- | :--- | :--- |
+| **Ngôn ngữ lõi** | TypeScript, Rust 🦀, JavaScript | An toàn bộ nhớ, logic chặt chẽ. |
+| **Frontend & App** | ReactJS, Next.js (16.3), Tauri v2 | Giao diện mượt mà, PWA, chạy tốt đa nền tảng. |
+| **Hạ tầng Cloud** | Cloudflare (Workers, D1, R2) | Serverless, Edge computing, siêu tốc độ. |
+| **Kiến trúc** | Offline-first, OTA Updates, Static Sites | App phải sống sót ngay cả khi rớt mạng! |
 
 ---
 
-## 🚀 The Multiverse of My Projects
+## 🚀 Các Trạm Vũ Trụ (Dự Án Tiêu Biểu)
 
-Mình code đa hệ, từ quản lý quán cà phê, game offline, cho đến tool UI. Dưới đây là những "đứa con tinh thần" tiêu biểu:
+Mình chia các dự án thành 3 hệ sinh thái chính để dễ bề quản lý:
 
-### ☕ F&B Tech Suite & True Cafe Ecosystem
-Là người vận hành trực tiếp, mình tự tay code luôn công cụ để quản lý:
-*   **[CO-POS]** 🔒: Máy tính tiền (POS) offline đa nền tảng cho quán cà phê. Được build bằng **Tauri v2 + React** và sync dữ liệu qua **Cloudflare Workers**. Chạy mượt mà, rớt mạng vẫn tính tiền ầm ầm.
-*   **[can-ca-phe]** 🔒: Ứng dụng PWA hỗ trợ cân đo đong đếm và chia mẻ cà phê cực kỳ chuẩn xác.
-*   **[truecaffe-mini-app]** 🌍: Mini-app dành riêng cho tín đồ của True Cafe.
-*   **[KHOMAYPHA-APP]** 🔒: Hệ thống hỗ trợ cho xưởng lắp ráp máy pha cà phê.
+### ☕ 1. Hệ Sinh Thái F&B & Quản Trị Khởi Nghiệp
+Các công cụ thực chiến được thiết kế từ chính nỗi đau của người làm vận hành:
+*   **`CO-POS`** 🔒: Máy tính tiền đa nền tảng (Tauri v2 + React + Cloudflare). Tính tiền mượt mà không lo rớt mạng.
+*   **`can-ca-phe`** 🔒: PWA hỗ trợ cân đo, chia mẻ hạt cà phê chuẩn xác.
+*   **`truecaffe-mini-app`** 🌍: Mini-app mở rộng trải nghiệm khách hàng.
+*   **`KHOMAYPHA-APP`** 🔒: Ứng dụng hỗ trợ nội bộ cho xưởng lắp ráp máy pha.
 
-### 🎮 Gaming, Culture & Pixel Art
-Code game bằng logic, nhưng thiết kế bằng tâm hồn:
-*   **[co-tuong]** 🌍: Cờ Tướng offline với engine **Rust** cực mạnh. Chơi mượt trên cả PC lẫn điện thoại, không cần mạng. Ai thích thuật toán minimax thì vào đây đàm đạo!
-*   **[oni-farm]** 🌍: Game nông trại hiện đại mang phong cách Pixel Art. Tách bạch hoàn toàn giữa Core và Content, cập nhật OTA siêu tiện lợi. Chạy static site offline hoàn toàn.
-*   **[Unimi-Coffee-Idle]** 🔒: Một tựa game idle (treo máy) về chủ đề cà phê. Đang ấp ủ, chờ ngày tỏa sáng.
+### 🕹️ 2. Hệ Sinh Thái Giải Trí, Nông Trại & Văn Hoá
+Nơi thả hồn vào pixel art và thuật toán trí tuệ:
+*   **`co-tuong`** 🌍: Engine cờ tướng viết bằng **Rust**, giao diện TypeScript. Offline 100%, cân mọi nước đi.
+*   **`oni-farm`** 🌍: Game nông trại Pixel Art hiện đại. Core và Content tách biệt hoàn toàn để cập nhật OTA. 
+*   **`Unimi-Coffee-Idle`** 🔒: Tựa game treo máy chủ đề cà phê đang trong lò luyện đan.
 
-### 🧠 EdTech, Tools & Utilities
-Đôi khi làm tool vì "thích thì làm":
-*   **[umini-social-kit]** 🌍: Tool tự động tạo carousel ảnh phong cách Apple-glassmorphism từ một file JSON. Biến việc làm content social trở nên siêu nhanh chóng và tự động. Export ra ảnh tĩnh cực mượt.
-*   **[co-learning]** 🔒: Ứng dụng học ngoại ngữ (Anh/Trung/Hàn/Nhật) cho người Việt. Phương pháp ghi nhớ qua hình ảnh, đặc biệt là: Cứ tải về là xài, full offline.
-*   **[video-edit-kit]** 🔒 & **[Umini-work]** 🔒: Bộ công cụ nội bộ hỗ trợ xử lý video và quản lý tác vụ công việc hàng ngày.
-
----
-
-## 💡 Triết Lý Của Mình (My Philosophy)
-
-> *"Có nên gõ vào portafilter khi pha máy? Có! Có nên dùng Rust để viết engine Cờ Tướng? Chắc chắn Có!"*
-
-Dù là canh chỉnh áp suất chiết xuất ra ly espresso ngon nhất ở True Cafe, hay debug bộ nhớ trình duyệt, mình tin rằng sự hoàn hảo đến từ việc hiểu rõ những nguyên lý cốt lõi nhất. Đừng phụ thuộc vào kết nối mạng nếu bạn có thể chạy nó offline. Đừng dùng framework quá cồng kềnh nếu một file static HTML/JS có thể giải quyết được.
+### 🧠 3. Hệ Sinh Thái Công Cụ & Giáo Dục
+*   **`umini-social-kit`** 🌍: Tool render ảnh carousel chuẩn Apple-glassmorphism từ file JSON. Cứu tinh của dân làm content social.
+*   **`co-learning`** 🔒: App học ngoại ngữ (Anh/Trung/Hàn/Nhật) qua hình ảnh dành cho người Việt, hoạt động offline.
+*   **`video-edit-kit`** 🔒 & **`Umini-work`** 🔒: Công cụ hỗ trợ luồng công việc nội bộ.
 
 ---
 
-### 📫 How to reach me:
-- Nhâm nhi cà phê và bàn chuyện kiến trúc phần mềm (hoặc ngâm thơ) với mình tại TP.HCM.
-- Hoặc cứ thả một issue vào các repo public của mình nhé!
+## 👨‍💻 Thông Số Cấu Hình (Developer Object)
 
-⚡ **Vui vẻ một chút:** Nếu code chạy không lỗi ở lần build đầu tiên, đó không phải là tài năng, đó là do tâm linh! 🔮
+Nếu phải định nghĩa bản thân dưới dạng một object JSON, nó sẽ trông như thế này:
+
+```json
+{
+  "name": "Trần Bảo Cường",
+  "base": "Ho Chi Minh City, Vietnam",
+  "roles": ["Full-stack Developer", "Barista & F&B Manager", "Maker"],
+  "hobbies": [
+    "Viết code Rust", 
+    "Nhận diện hạt Robusta/Culi", 
+    "Chơi đàn tranh & violin", 
+    "Võ thuật", 
+    "Phượt đây đó tìm cảm hứng"
+  ],
+  "status": "Đang debug và uống ly cà phê thứ 3 trong ngày ☕"
+}
+
+```
+
+---
+
+## 🎯 Nhiệm Vụ Đang Chạy (Current Quests)
+
+* [x] Triển khai thành công tính năng Instant Navigations trên Next.js.
+* [x] Đưa engine Rust lên web/app chơi cờ tướng mượt mà không cần mạng.
+* [ ] Hoàn thiện `Unimi-Coffee-Idle` để sớm trình làng anh em.
+* [ ] Mở rộng tính năng đồng bộ cloud trên `CO-POS` bằng D1 và R2.
+
+---
+
+### 📫 Kết Nối & Đàm Đạo
+
+Nếu bạn có hứng thú đàm đạo về kiến trúc phần mềm, kỹ thuật chiết xuất espresso, hay thậm chí là cách làm thơ lục bát, đường luật... đừng ngại kết nối nhé! Cứ tạo Issue hoặc Pull Request ở các dự án public của mình, chúng ta cùng xây dựng những thứ hay ho! 🚀
+
+```
+
+***
+
+**Lý do bản này "ngầu" hơn:**
+1.  **Dùng bảng (Table):** Giúp người xem (đặc biệt là các nhà tuyển dụng hoặc dev khác) nắm bắt ngay bộ kỹ năng (Tech Stack) của bạn một cách cực kỳ khoa học.
+2.  **Khối Code (Code block):** Cách giới thiệu bản thân bằng định dạng JSON cực kỳ đậm chất lập trình viên, làm cho profile "geek" hơn hẳn.
+3.  **Checklist (Task list):** Thể hiện bạn là người có kế hoạch rõ ràng, đang tiếp tục phát triển (không phải dạng tạo repo xong bỏ xó).
+4.  **Sử dụng Header & Emoji:** Điều hướng mắt người đọc tốt hơn, chia dự án thành các cụm (F&B, Game, Tool) giúp cái nhìn tổng quan không bị rối.
